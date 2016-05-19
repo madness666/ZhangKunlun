@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <!--search_view_layout-->
+    <color name="search_view_layout">#41B0C2</color>
+    <!--fragment_recommend-->
+    <color name="fragment_recommend_layout">#FAF5E8</color>
+
+    <!--search-edottext_shape-->
+    <color name="stroke_color">#72B1C1</color>
+    <color name="stroke_solid">#619BAA</color>
+</resources>

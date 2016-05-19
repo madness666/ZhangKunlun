@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:id="@+id/replace_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"></FrameLayout>
+
+    <RadioGroup
+        android:id="@+id/main_rg"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/activity_radio_group"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/recommend_rb"
+            android:layout_width="@dimen/activity_radio_recommend"
+            android:layout_height="@dimen/activity_radio_group"
+            android:layout_weight="1"
+            android:background="@drawable/recommend_selector"
+            android:button="@null"
+            android:checked="true" />
+
+        <RadioButton
+            android:id="@+id/cityhunter_rb"
+            android:layout_width="@dimen/activity_radio_cityhunter"
+            android:layout_height="@dimen/activity_radio_group"
+            android:layout_weight="1"
+            android:background="@drawable/cityhunter_selector"
+            android:button="@null" />
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="@dimen/activity_radio_group"
+            android:layout_weight="1"
+            android:background="@mipmap/tabbar_trip_bg">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="center"
+                android:src="@mipmap/tabbar_trip_add" />
+        </LinearLayout>
+
+        <RadioButton
+            android:id="@+id/design_rb"
+            android:layout_width="@dimen/activity_radio_design"
+            android:layout_height="@dimen/activity_radio_group"
+            android:layout_weight="1"
+            android:background="@drawable/design_selector"
+            android:button="@null" />
+
+        <RadioButton
+            android:id="@+id/personal_rb"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/activity_radio_group"
+            android:layout_weight="1"
+            android:background="@drawable/personal_selector"
+            android:button="@null" />
+    </RadioGroup>
+
+</RelativeLayout>

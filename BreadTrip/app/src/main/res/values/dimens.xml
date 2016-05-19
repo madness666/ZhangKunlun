@@ -1,0 +1,51 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!--activity_main布局-->
+    <dimen name="activity_radio_group">60dp</dimen>
+    <dimen name="activity_radio_recommend">0dp</dimen>
+    <dimen name="activity_radio_cityhunter">0dp</dimen>
+    <dimen name="activity_radio_design">0dp</dimen>
+    <dimen name="activity_radio_plus">0dp</dimen>
+    <dimen name="activity_radio_personal">0dp</dimen>
+
+    <!--search_view_layout,推荐界面搜索框-->
+    <dimen name="search_view_relayout">55dp</dimen>
+    <dimen name="edit_text_wid">320dp</dimen>
+    <dimen name="edit_text_margin">8dp</dimen>
+    <dimen name="edit_text_size">15sp</dimen>
+    <!--search_view_layout,TextView-->
+    <dimen name="text_view_margin_left">20dp</dimen>
+    <dimen name="text_view_margin_right">20dp</dimen>
+    <dimen name="text_view_size">20sp</dimen>
+
+    <!--item_recommend-->
+
+    <dimen name="frame_out_margin">10dp</dimen>
+    <dimen name="simple_drawee_height">220dp</dimen>
+    <dimen name="rounded_radius">3dp</dimen>
+    <dimen name="content_tv_size">20sp</dimen>
+    <dimen name="date_tv_magin">40dp</dimen>
+    <dimen name="simple_drawee_width">30dp</dimen>
+    <dimen name="simple_drawee_magin_top">170dp</dimen>
+    <dimen name="author_tv_magin_top">175dp</dimen>
+    <dimen name="author_tv_size">15sp</dimen>
+
+    <!--head_view-->
+    <dimen name="slide_view_height">180dp</dimen>
+
+    <!--layout_slideshow-->
+    <dimen name="slides_show_magin">8dp</dimen>
+    <dimen name="slides_show_magin_left">5dp</dimen>
+
+    <!--stroke-->
+    <dimen name="search_edit_text_width">1dp</dimen>
+    <dimen name="search_radius">115dp</dimen>
+
+    <!--activity_guide-->
+    <dimen name="image_button_margin_bottom">80dp</dimen>
+    <dimen name="linearlayout_margin_bottom">24dp</dimen>
+    <dimen name="image_point_padding">15dp</dimen>
+</resources>

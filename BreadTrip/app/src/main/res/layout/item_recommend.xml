@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/frame_out_margin"
+        android:layout_marginRight="@dimen/frame_out_margin"
+        android:layout_marginTop="@dimen/frame_out_margin">
+
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/recommend_item_cover_sdv"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/simple_drawee_height"
+            android:scaleType="centerCrop"
+            fresco:actualImageScaleType="focusCrop"
+            fresco:failureImage="@mipmap/place_holder_big"
+            fresco:failureImageScaleType="focusCrop"
+            fresco:roundedCornerRadius="@dimen/rounded_radius" />
+
+        <TextView
+            android:id="@+id/recommend_item_content_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/frame_out_margin"
+            android:layout_marginTop="@dimen/frame_out_margin"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/content_tv_size" />
+        <TextView
+            android:id="@+id/recommend_item_date_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/frame_out_margin"
+            android:layout_marginTop="@dimen/date_tv_magin"
+            android:textColor="@android:color/white" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.facebook.drawee.view.SimpleDraweeView
+                android:id="@+id/recommend_item_head_sdv"
+                android:layout_width="@dimen/simple_drawee_width"
+                android:layout_height="@dimen/simple_drawee_width"
+                android:layout_marginLeft="@dimen/frame_out_margin"
+                android:layout_marginTop="@dimen/simple_drawee_magin_top"
+                fresco:actualImageScaleType="focusCrop"
+                fresco:roundAsCircle="true" />
+            <TextView
+                android:id="@+id/recommend_item_author_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/frame_out_margin"
+                android:layout_marginTop="@dimen/author_tv_magin_top"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/author_tv_size" />
+        </LinearLayout>
+    </FrameLayout>
+</RelativeLayout>

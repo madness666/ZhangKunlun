@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:radius="@dimen/search_radius" />
+    <stroke
+        android:width="@dimen/search_edit_text_width"
+        android:color="@color/stroke_color" />
+    <solid android:color="@color/stroke_solid" />
+    <padding
+        android:bottom="@dimen/slides_show_magin"
+        android:left="@dimen/frame_out_margin"
+        android:top="@dimen/slides_show_magin" />
+</shape>

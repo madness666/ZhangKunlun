@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">面包旅行</string>
+    <string name="search_et_nearby">附近</string>
+    <string name="search_et_input">搜索目的地、游记、故事集、用户</string>
+</resources>
